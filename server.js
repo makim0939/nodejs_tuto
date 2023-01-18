@@ -10,7 +10,8 @@ const PORT = 8000
 
 
 app.get("/", (req, res)=> {
-    res.send("hello")
+    console.log(req.body)
+    res.sendFile(__dirname + "/pages/index.html")
 })
 
 server.listen(PORT, () =>{
