@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_tuto",
+  "version": "1.0.0",
+  "description": "expressを使ってnode.js入門",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makim0939/nodejs_tuto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makim0939/nodejs_tuto/issues"
+  },
+  "homepage": "https://github.com/makim0939/nodejs_tuto#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
